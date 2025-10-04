@@ -1,0 +1,25 @@
+#block{
+    /* float: left; */
+    padding-top:2% ;
+    height: 140px;
+    width: 270px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    /* position:relative; */
+    /* top: 50%;
+    left: 50%; */
+
+}
+#form{
+    margin-left: 10px;
+}
+body{
+    height: 100vh;          /* full window height */
+    margin: 0;             /* remove default browser margin */
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
