@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="\final chatbot\register.css">
+</head>
+<body>
+    <div class="sheet">
+        <form action="register.php" method="post" target="_blank" enctype="multipart/form-data">
+            <label for="name" style="background-color: blue;">Name</label>
+            <input type="text" name="name" placeholder="candidate name" id="name" required>
+<br>
+            <label for="roll">Roll no.</label>
+            <input type="number" name="roll" placeholder="numbers only" id="roll" required>
+<br>
+            <label for="branch">Course/Branch</label>
+            <input type="text" name="branch" placeholder="course/branch" id="branch" required>
+<br>
+            <label for="gender">Gender</label>
+<select name="" id="">
+    <option name="gender"  id="male" required>Male</option>
+            <option name="gender"  id="female" required>Female</option>
+</select>
+            
+
+<br>
+            <label for="photo">Photo</label>
+            <input type="file" name="photo" id="photo" accept="image/*">
+<br>
+            <label for="id">University ID</label>
+            <input type="file" id="id" name="university_id" accept=".pdf" required>
+<br>
+            <label>
+  <input type="checkbox" required>
+  I confirm that all the details provided above are true and I am eligible to stand for election.
+</label><br>
+
+            <button type="submit">submit</button>
+        </form>
+        
+    </div>
+</body>
+</html>
